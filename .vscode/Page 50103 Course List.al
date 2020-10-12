@@ -81,7 +81,7 @@ page 50103 "Course List"
         courseRec: Record Course;
     begin
         with courseRec do begin
-            Init();
+            Init;
             Code := '80040';
             Name := 'Installation & Configuration';
             Description := 'Basic knowledge of Installation & Configuration';
@@ -95,7 +95,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80041';
             Name := 'Finance';
             Description := 'Basic knowledge of finance';
@@ -109,7 +109,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80042';
             Name := 'C/SIDE Introduction';
             Description := 'Introdution to programming';
@@ -123,7 +123,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80043';
             Name := 'Introduction';
             Description := 'Introdution to Microsoft Dynamics Nav';
@@ -137,7 +137,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80049';
             Name := 'Appliction setup';
             Description := 'Basic knowledge of appliction setup';
@@ -151,7 +151,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80050';
             Name := 'Business Intelligence';
             Description := 'Basic knowledge of Business Intelligence';
@@ -165,7 +165,7 @@ page 50103 "Course List"
             Message('Already Insert');
         end;
         with courseRec do begin
-            Init();
+            Init;
             Code := '80055';
             Name := 'C/SIDE Solution Develoment';
             Description := 'Advanced topics in programming';
